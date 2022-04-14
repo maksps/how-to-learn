@@ -204,7 +204,7 @@
 .feynman {
 
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -325,8 +325,7 @@
   color: white;
   justify-content: space-between;
   width: 90%;
-  margin: auto;
-  min-height: 230px;
+  margin: 0 auto;
 }
 
 .footer__column {
@@ -361,6 +360,9 @@
 
 .footer__author {
   margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-links {
