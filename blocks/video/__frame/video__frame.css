@@ -1,6 +1,7 @@
 .video__frame {
   width: 515px;
   height: 316px;
+  border: none;
 }
 
 .video__frame:nth-child(2n) {
