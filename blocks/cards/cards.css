@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 920px;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.cards::after { /* костыль */
+  content: "";
+  display: block;
+  width: 240px;
+}

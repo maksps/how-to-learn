@@ -1,0 +1,8 @@
+.video__frame {
+  width: 515px;
+  height: 316px;
+}
+
+.video__frame:nth-child(2n) {
+  margin-left: 20px;
+}
